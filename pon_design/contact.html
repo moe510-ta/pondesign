@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex , nofollow">
+    <meta name="description" content="お客様の夢を叶えるWebサイトを制作">
+    <meta property="og:title" content="CONTACT">
+    <meta property="og:description" content="お客様の夢を叶えるWebサイトを制作">
+    <meta property="og:site/name" content="pon_design">
+    <meta property="og:url" content="http://127.0.0.1:5501/contact.html">
+    <meta property="og:image" content="./img/ogp.png">
+    <meta property="og:locale" content="ja-jp">
+    <meta property="og:type" content="article">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/common.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header id="top" class="header">
+        <div class="header__area" id="header">
+        <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="PON DESIGN"></a></h1>
+        <div class="nav__toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <ul class="nav">
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="service.html">SERVICE</a></li>
+            <li><a href="works.html">WORKS</a></li>
+            <li><a href="company.html">COMPANY</a></li>
+            <li><a href="recruit.html">RECRUIT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </div>
+        <div class="top__area">
+        <h2 class="top__title">CONTACT</h2>
+        <p class="top__sub-title">お問い合わせ</p>
+        </div>
+    </header>
+    <nav>
+        <ol class="breadcrumd">
+            <li><a href="index.html">HOME</a></li>
+            <li>CONTACT</li>
+        </ol>
+    </nav>
+
+    <section class="contact-page">
+    
+    <p class="contact__lead">Webサイトの制作のご依頼やお見積りなど、<br>お気軽にご相談ください。</p>
+
+    <div class="form">
+    <form action="/from.php" method="post" class="form__area">
+        <div class="contact__item  type">
+            <label class="contact__item-title" >お問い合わせ種別 <span class="contact__item__caution">必須</span></label><br>
+        <label><input type="radio" name="種別" value="request" checked="checked">お仕事のご依頼・ご相談</label>
+        <label><input type="radio" name="種別" value="mitumori" checked="checked">お見積りのご依頼</label>
+        <label><input type="radio" name="種別" value="recruit" checked="checked">採用について</label>
+        <label><input type="radio" name="種別" value="others" checked="checked">その他</label>
+        <div class="contact__item">
+        <label>お名前<span class="contact__item__caution">必須</span></label><br>
+        <input class="border" type="text" name="name">
+        </div>
+        <div class="contact__item">
+            <label>会社名</label><br>
+            <input class="border" type="text" name="company">
+        </div>
+        <div class="contact__item">
+            <label>メールアドレス<span class="contact__item__caution">必須</span></label><br>
+            <input class="border" type="text" name="mail">
+        </div>
+        <div class="contact__item">
+            <label>お電話番号<span class="contact__item__small">（半角数字ハイフンなし）</span></label><br>
+            <input class="border--tell" type="text" name="tell">
+        </div>
+        <div class="contact__item">
+                <p class="contact__area">お問い合わせ内容<span class="contact__item__caution">必須</span><br>
+                    <textarea name="お問い合わせ内容" id="contact"></textarea>
+                </p>
+        </div>
+        <div class="select">
+            <label>PON DESIGNをどちらでお知りになりましたか？<span class="contact__item__caution">必須</span></label><br>
+            <select class="border" name="where" id="where-select">
+                <option value="">選択してください</option>
+                <option value="Google/Yahoo検索">Google/Yahoo検索</option>
+                <option value="SNS">SNS</option>
+                <option value="ブログ">ブログ</option>
+                <option value="友人や知人">友人や知人</option>
+                <option value="その他">その他</option>
+            </select>
+        </div>
+        </div>
+    
+    </form>
+    <div class="submit">
+        <input type="submit" value="送信する">
+    </div>
+</div>
+</section>
+
+
+        
+    <!-- フッター -->
+<footer class="footer">
+    <ul class="nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="news.html">NEWS</a></li>
+        <li><a href="service.html">SERVICE</a></li>
+        <li><a href="works.html">WORKS</a></li>
+        <li><a href="company.html">COMPANY</a></li>
+        <li><a href="recruit.html">RECRUIT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <p class="small">&copy; PON DESIGN</p>
+    <a href="#top" id="js-pagetop" class="pagetop"><span class="pagetop__arrow"></span>
+    </a>
+</footer> 
+<script src="./JS/jquery-3.7.1.min.js"></script>
+<script src="./JS/script.js"></script>
+</body>
+</html>
